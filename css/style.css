@@ -108,3 +108,16 @@ header{
 .txt-pdng{
 	padding-left: 10px;
 }
+
+.btn-submit{
+    width: 120px;
+    height: 40px;
+    background-color: #585754;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.txt-info-inputs a{
+	color: white;
+	text-decoration: none;
+}
