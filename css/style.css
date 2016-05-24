@@ -203,7 +203,48 @@ header{
 	color: white;
 }
 
+.factor-benef .column-size h4{
+	font-style: italic;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
 .column-size{
 	float: left;
 	width: 30%;
+}
+
+.column-img{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	height: 52px;
+	width: 52px;
+}
+
+.column-1-img{ background-image: url(../image/listings.png); }
+.column-2-img{ background-image: url(../image/people-ico.png);}
+
+
+.fact-column-table {
+	margin-bottom: 20px;
+	display: table;
+}
+
+.fact-column-table .column-1-img,
+.fact-column-table .column-1-txt,
+.fact-column-table .column-2-img,
+.fact-column-table .column-2-txt {
+	display: table-cell;	
+}
+
+.column-1-txt,
+.column-2-txt{
+	color: #dbdada;
+}
+
+.column-1-img,
+.column-2-img{
+	padding-right: 10px;
 }
