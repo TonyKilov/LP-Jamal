@@ -216,6 +216,10 @@ header{
 	width: 30%;
 }
 
+.factor-column-2{
+	margin: 0 20px; 
+}
+
 .column-img{
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -225,6 +229,9 @@ header{
 
 .column-1-img{ background-image: url(../image/listings.png); }
 .column-2-img{ background-image: url(../image/people-ico.png);}
+.column-3-img{ background-image: url(../image/computer-ico.png);}
+.column-4-img{ background-image: url(../image/engine-ico.png);}
+.column-5-img{ background-image: url(../image/crusader-ico.png);}
 
 
 .fact-column-table {
@@ -235,16 +242,28 @@ header{
 .fact-column-table .column-1-img,
 .fact-column-table .column-1-txt,
 .fact-column-table .column-2-img,
-.fact-column-table .column-2-txt {
+.fact-column-table .column-2-txt,
+.fact-column-table .column-3-img,
+.fact-column-table .column-3-txt,
+.fact-column-table .column-4-img,
+.fact-column-table .column-4-txt,
+.fact-column-table .column-5-img,
+.fact-column-table .column-5-txt {
 	display: table-cell;	
 }
 
 .column-1-txt,
-.column-2-txt{
+.column-2-txt,
+.column-3-txt,
+.column-4-txt,
+.column-5-txt{
 	color: #dbdada;
 }
 
 .column-1-img,
-.column-2-img{
+.column-2-img,
+.column-3-img,
+.column-4-img,
+.column-5-img{
 	padding-right: 10px;
 }
