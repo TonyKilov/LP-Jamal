@@ -29,9 +29,11 @@ header{
 
 .basic-img{
 	background-image: url("../image/image-logo.jpg");
-	height: 600px;
-    padding: 40px 0 20px 0;
+    height: 500px;
+    padding: 50px 0 50px 0;
     box-sizing: border-box;
+    background-position-y: -150px;
+    background-repeat: no-repeat;
 }
 
 
@@ -51,8 +53,8 @@ header{
 
 .form-style{
 	background-color: #fff;
-	padding: 15px;
-	color: #909090
+	padding: 25px 10px;
+	color: #909090;
 }
 
 .basic-img .started-form h4{
@@ -62,10 +64,14 @@ header{
 }
 
 .basic-txt .basic-txt-title {
-	font-size: 44px;
+	font-size: 40px;
 	text-transform: uppercase;
 	color: #ffffff;
+}
 
+.basic-txt-desc{
+	color: white;
+	font-size: 30px;
 }
 
 .txt-cash-flow{
@@ -114,10 +120,90 @@ header{
     height: 40px;
     background-color: #585754;
     border-radius: 10px;
-    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px auto;
 }
 
 .txt-info-inputs a{
 	color: white;
 	text-decoration: none;
+	text-align: center;
+}
+
+.staff-companies h4{
+	text-align: center;
+	color: #585754;
+	font-size: 30px;	
+}
+
+.staff-image-1 {
+	float: left;
+}
+.staff-image-2{
+	float: left;
+	margin: 0 25px;
+}
+
+.staff-image-3{
+	float: left;
+}
+
+.questions{
+	margin: 0 0 40px 0;	
+}
+
+.questions-left{
+	float: left;
+	width: 50%;
+}
+.questions-right{
+	float: right;
+	width: 50%;
+}
+
+.questions-left-contain{ 
+	margin: 0 30px;
+	box-sizing: border-box; 
+}
+
+.questions-right-contain{
+	margin: 0 30px;
+	box-sizing: border-box; 
+}
+
+.staff-companies .questions h4{
+	margin-bottom: 10px;
+	text-align: left;
+	color: #141f78;
+	font-size: 24px;
+	display: inline-block;
+}
+
+.questions-basic-txt{
+	text-align: left;
+	font-size: 17px;
+	color: #585754;
+}
+
+.factor-benef{
+	background-image: url(../image/invite-img.jpg);
+    background-repeat: no-repeat;
+    height: 755px;
+    background-position: -155px -320px;
+}
+
+.factor-benef h4{
+	margin: 0;
+	padding: 55px 0;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+.column-size{
+	float: left;
+	width: 30%;
 }
