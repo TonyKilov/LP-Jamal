@@ -37,7 +37,8 @@ header{
 }
 
 
-.basic-txt{
+.basic-txt,
+.footer-txt{
 	float: left;
 	width: 50%;
 	margin: 0 auto;
@@ -57,7 +58,8 @@ header{
 	color: #909090;
 }
 
-.basic-img .started-form h4{
+.basic-img .started-form h4,
+.footer .started-form h4{
 	margin: 0;
     text-align: center;
     font-size: 30px;
@@ -246,3 +248,23 @@ header{
 .fact-column-table .column-txt{ display: table-cell;	}
 
 .column-txt { color: #dbdada; }
+
+.footer{
+	margin: 40px 0 5px 0;
+}
+
+
+.footer-txt-title{
+	padding: 28px 45px; 
+	color: #141f78;
+	font-size: 45px;
+}
+
+.copyright-txt{
+	margin: 40px 0 15px 0;
+	text-align: center;
+	color: #ababa9;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
