@@ -11,7 +11,7 @@ html,body{
 	visibility: hidden;
 }
 .container{
-	width: 60%;
+	width: 1080px;
 	margin: 0 auto;
 
 }
@@ -141,16 +141,17 @@ header{
 	font-size: 30px;	
 }
 
-.staff-image-1 {
+.staff-image{
 	float: left;
-}
-.staff-image-2{
-	float: left;
-	margin: 0 25px;
+	width: 30%
 }
 
-.staff-image-3{
-	float: left;
+.staff-image:nth-child(2){
+	margin: 0 5%;
+}
+
+.staff-image img{
+	width: 100%;
 }
 
 .questions{
@@ -159,20 +160,27 @@ header{
 
 .questions-left{
 	float: left;
-	width: 50%;
+	width: 45%;
 }
+
+.right-margin{
+	margin-right: 5%;
+}
+
+.left-margin{
+	margin-left: 5%;
+}
+
 .questions-right{
 	float: right;
-	width: 50%;
+	width: 45%;
 }
 
 .questions-left-contain{ 
-	margin: 0 30px;
 	box-sizing: border-box; 
 }
 
 .questions-right-contain{
-	margin: 0 30px;
 	box-sizing: border-box; 
 }
 
@@ -194,7 +202,7 @@ header{
 	background-image: url(../image/invite-img.jpg);
     background-repeat: no-repeat;
     height: 755px;
-    background-position: -155px -320px;
+    background-position: 50% 50%;
 }
 
 .factor-benef h4{
@@ -245,7 +253,9 @@ header{
 }
 
 .fact-column-table .column-img,
-.fact-column-table .column-txt{ display: table-cell;	}
+.fact-column-table .column-txt{
+	display: table-cell;
+	vertical-align: top;	}
 
 .column-txt { color: #dbdada; }
 
